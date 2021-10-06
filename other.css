@@ -1,0 +1,178 @@
+body, html{
+    height: 100%;
+     font-family: 'Roboto', sans-serif;
+}
+
+body {
+     padding: 16px; 
+    text-align: center;
+      /* background-color: rgb(202, 238, 235);  */
+
+}
+
+.bg{
+    background: linear-gradient(#fff, #7fafb1);
+    background-size: cover;
+    height: 10%;
+    background-repeat: no-repeat;
+}
+
+ul{
+    border: #a09c9c 2px solid;
+    border-radius: 16px;
+}
+
+ul>li{
+    text-align: left;
+    color: rgb(98, 184, 255);
+    font-size: medium;
+}
+
+ul>li>span{
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+ol{
+    border: #000 2px solid;
+    border-radius: 16px;
+}
+ol>li{
+    margin-top: 5px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+details>summary {
+    list-style: none;
+
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary::after {
+    content: '  ▶';
+
+}
+
+details[open] summary:after{
+    content: "  🔽";
+}
+
+
+
+
+
+.intro p{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 94px;
+}
+.image{
+    width: 100%; 
+    /*margin-top: 72px;*/
+    height: 400px;
+    display: flex; 
+     
+}
+ .image img{
+    width: 100%;
+    /* style=*/padding: 15px 0px 0px 0px;
+    object-fit: cover;
+}
+.cooking{ 
+    margin-top: 12px;
+    display: inline-block;
+    width: 15rem;
+    /* background-image: url("cooking_1.jpg"); */
+
+}
+.Gardening{
+    margin-top: -18px;
+    margin-left: 12px;
+    width: 15rem;
+    display: inline-block;
+}
+.indoor-games{
+    margin-left: 12px;
+    margin-top: -18px;
+    width: 15rem;
+    display: inline-block;
+}
+
+.activities{
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 20rem; */
+    /* flex-wrap: wrap; */
+}
+
+.cook-head{
+    /* border: #000 1px solid;
+    border-radius: 4px;
+    /* background: linear-gradient(#fff, #ffe499); 
+    background-color: #2E933C;
+    font-weight: 800;
+    color: white;
+    font-size: larger;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%); */
+    /* border: #000 1px solid; */
+    border-radius: 4px;
+     /* background-image: url("cooking_1.jpg"); */
+
+    /* background: linear-gradient(#fff, #ffe499); */
+    background-color: #2E933C;
+    font-weight: 800;
+    color: white;
+    font-size: larger;
+    /* margin-left: 4%; */
+    /* margin-right: 76%; */
+    padding: 20px 0px;
+    display: block;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.garden-decoration {
+
+    border: #000 2px solid;
+    border-radius: 16px;
+    background: linear-gradient(rgb(201, 40, 40), rgb(12, 101, 173));
+    font-weight: 800;
+    color: #000;
+    font-size: larger;
+    padding: 8px;
+}
+
+@media only screen and (max-width : 770px){
+    .activities{
+        display: flex!important;
+        flex-direction:column!important;
+        align-items: center!important;
+    }
+    .cooking{ 
+        margin-top: 12px;
+        display: inline-block;
+        width: 33%;
+        margin-left: 0;
+        /* background-image: url("cooking_1.jpg"); */
+    
+    }
+    .Gardening{
+        margin-top: -18px;
+        /* margin-left: 12px; */
+        margin-left: 0;
+        width: 33%;
+        display: inline-block;
+    }
+    .indoor-games{
+        /* margin-left: 12px; */
+        margin-left: 0;
+        margin-top: -18px;
+        width: 33%;
+        display: inline-block;
+    }
+}

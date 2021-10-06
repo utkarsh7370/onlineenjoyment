@@ -1,0 +1,201 @@
+body{
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+     background-color: #f8f1f1;
+     font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    height: 10%; 
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.navbar img{
+    
+    width: 40px; 
+    margin-left: 12px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.navbar h1{
+    font-size: 40px;
+     margin-top: 14px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.navbar h2{
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 153px;
+    top: 21px;
+}
+/* .navbar but*/.btn{
+    display: inline-block;
+    position: absolute;
+    right: 36px;
+    top: 41px;
+    color: white;
+    background-color: #2E933C;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    transform: translateY(-2px);
+}
+.Image{
+   /* height: 270px; */
+    width: 100%;
+    /* margin-top: 10px; */
+   /* height: 461px; */
+    width: 100%;
+    display: flex;
+    /* filter: invert(100%); */
+}
+.Image img{
+    width: 100%;
+}
+h6{
+  margin-top: 12px;
+    margin-left: 10px;
+    font-size: 1px;
+}
+
+.mBoxes{
+    background-color: #f8f1f1;
+    /* margin-top: 13px; */
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.mBoxes h6{
+    display: inline;
+    height: 5px;
+}
+
+.lines a{
+    color: white;
+    text-decoration: none;
+}
+.lines a:hover{
+    font-size: 19px;
+    color: rgb(250, 7, 7);
+}
+
+.Sci-fic{
+    border: 1px solid black;
+    /* background-color: white; */
+    background-image: url("sci-fic.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 11px;
+    /* width: 400px;
+    height: 600px; */
+    width: 22%;
+    margin-top: 77px;
+    margin-left: 46px;
+    margin-bottom: 14px;
+}
+
+
+.Sci-fic h2{
+    color: white;
+   font-size: 35px;
+    margin-top: 17px;
+    margin-left: 32px;
+}
+.Sci-fic li{
+    color: white;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+/* .Sci-fic:hover{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+} */
+
+.Thriller{
+     /* border: 1px solid black; */
+    background-image: url("thriller.jpg");
+    background-size: 175%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 11px;
+    width: 22%;
+    margin-top: 77px;
+    margin-left: 46px;
+    margin-bottom: 14px;
+
+}
+.Thriller h2{
+    color: white;
+    font-size: 35px;
+    margin-top: 17px;
+   margin-left: 32px;
+}
+.Thriller li{
+     color: white;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+.Classic{
+     /* border: 1px solid black; */
+    background-image: url("classic_2.jpg");
+    
+    background-size: 157%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 11px;
+    width: 22%;
+    margin-top: 77px;
+    margin-left: 46px;
+    margin-bottom: 14px;
+
+}
+.Classic h2{
+    color: white;
+   font-size: 35px;
+    margin-top: 17px;
+    margin-left: 32px;
+}
+.Classic li{
+    color: white;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+.Romantic{
+    /* border: 1px solid black; */
+   background-image: url("romantic_2.jpg");
+   background-size: 139%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    width: 22%;
+    border-radius: 11px;
+    margin-top: 77px;
+    margin-left: 46px;
+    margin-bottom: 14px;
+}
+.Romantic h2{
+    color: white;
+    font-size: 35px;
+    margin-top: 17px;
+    margin-left: 32px;
+}
+.Romantic li{
+     color: white;
+    margin-left: 15px;
+    margin-top: 4px;
+}
